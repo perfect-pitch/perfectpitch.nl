@@ -1,11 +1,10 @@
-import * as Logo from "./logo.jpg";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 
 export default function Home() {
   return (
     <main>
       <img
-        src='/logo.jpg'
+        src="/logo.jpg"
         alt="logo"
         style={{
           maxWidth: "100%",
