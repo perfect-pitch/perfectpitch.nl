@@ -1,11 +1,11 @@
-import * as Logo from "@/public/logo.jpg";
+import * as Logo from "./logo.jpg";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <Image
-        src={Logo}
+      <img
+        src='/logo.jpg'
         alt="logo"
         style={{
           maxWidth: "100%",
