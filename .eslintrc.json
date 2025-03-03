@@ -1,7 +1,0 @@
-{
-  "plugins": ["next-on-pages"],
-  "extends": ["next", "plugin:next-on-pages/recommended"],
-  "rules": {
-    "next-on-pages/no-unsupported-configs": "warn"
-  }
-}
